@@ -1,6 +1,6 @@
 <div align="center">
 
-![PIRATICy GitHub Banner](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:2563eb,100:14b8a6&text=PIRATICy&fontColor=ffffff&fontSize=58&fontAlignY=38&desc=Learning%20by%20building%20apps,%20games%20and%20systems&descAlignY=58&descSize=16)
+![PIRATICy GitHub Banner](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:2563eb,100:14b8a6&text=PIRATICy&fontColor=ffffff&fontSize=58&fontAlignY=38&desc=Building%20apps,%20systems,%20web%20tools%20and%20digital%20experiences&descAlignY=58&descSize=16)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Piraticy&style=for-the-badge&color=2563eb)](https://github.com/Piraticy)
 [![GitHub Followers](https://img.shields.io/github/followers/Piraticy?style=for-the-badge&logo=github&color=14b8a6)](https://github.com/Piraticy?tab=followers)
@@ -11,13 +11,13 @@
 
 ## 👋 About Me
 
-I am **PIRATICy**, a curious builder from **Tanzania** learning how to turn ideas into real software. My projects are mainly built with **JavaScript**, **TypeScript**, **Python**, **HTML**, and **CSS**, with a focus on apps, games, systems, and practical tools that solve real problems.
+I am **PIRATICy**, a curious builder from **Tanzania** learning how to turn ideas into real software. My projects are mainly built with **TypeScript**, **JavaScript**, **Python**, **HTML**, **CSS**, **SQL**, and **Prisma**, with a focus on apps, games, systems, and practical tools that solve real problems.
 
 I enjoy learning in public, experimenting with new challenges, and improving one project at a time.
 
 ```txt
 Current mode : Learning, building, improving
-I build with : JavaScript, TypeScript, Python, HTML, CSS
+I build with : TypeScript, JavaScript, Python, HTML, CSS, SQL, Prisma
 Open to      : Collaboration, mentorship, creative projects
 Mindset      : Build daily. Learn deeply. Share progress.
 ```
@@ -25,7 +25,7 @@ Mindset      : Build daily. Learn deeply. Share progress.
 ## 🚀 What I Am Working Toward
 
 - Building useful apps and interactive experiences
-- Improving my programming fundamentals with JavaScript, TypeScript, and Python
+- Improving my programming fundamentals with TypeScript, JavaScript, and Python
 - Exploring game development, automation, and system design
 - Collaborating with developers, creators, and problem-solvers
 - Turning small experiments into polished public projects
@@ -34,11 +34,17 @@ Mindset      : Build daily. Learn deeply. Share progress.
 
 <div align="center">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)
 ![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
+![SQL](https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Prisma](https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma&logoColor=white)
+![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
+![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
@@ -49,12 +55,16 @@ Mindset      : Build daily. Learn deeply. Share progress.
 mindmap
   root((PIRATICy))
     Frontend
-      JavaScript
       TypeScript
+      JavaScript
       HTML
       CSS
     Backend
       Python
+      Node.js
+    Database
+      SQL
+      Prisma
     Workflow
       Git
       GitHub

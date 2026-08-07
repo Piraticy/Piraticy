@@ -1,73 +1,127 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">PIRATICy GitHub profile visual</title>
-  <desc id="desc">A dark visual profile card for PIRATICy showing project areas and technologies.</desc>
+<svg width="1200" height="470" viewBox="0 0 1200 470" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated PIRATICy profile hero</title>
+  <desc id="desc">Animated dark profile banner with floating project cards, moving cursor gesture, and technology chips.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="0.45" stop-color="#102B4D"/>
-      <stop offset="1" stop-color="#0D6B66"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06101E"/>
+      <stop offset="0.42" stop-color="#102A4C"/>
+      <stop offset="1" stop-color="#0F766E"/>
     </linearGradient>
-    <linearGradient id="line" x1="147" y1="77" x2="1106" y2="342" gradientUnits="userSpaceOnUse">
+    <linearGradient id="stroke" x1="70" y1="70" x2="1130" y2="398" gradientUnits="userSpaceOnUse">
       <stop stop-color="#60A5FA"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
       <stop offset="1" stop-color="#2DD4BF"/>
     </linearGradient>
-    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#1D4ED8"/>
+    <linearGradient id="logo" x1="104" y1="104" x2="188" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
       <stop offset="1" stop-color="#14B8A6"/>
     </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.38"/>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#020617" flood-opacity="0.42"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="430" rx="36" fill="url(#bg)"/>
-  <path d="M0 324C142 265 254 355 393 303C545 246 686 333 822 286C960 238 1061 257 1200 199V430H0V324Z" fill="#E0F2FE" opacity="0.1"/>
-  <path d="M-20 96H1220M-20 190H1220M-20 284H1220M148 -20V450M318 -20V450M488 -20V450M658 -20V450M828 -20V450M998 -20V450" stroke="#FFFFFF" stroke-opacity="0.06"/>
-  <circle cx="990" cy="93" r="116" fill="#22D3EE" opacity="0.12"/>
-  <circle cx="206" cy="342" r="150" fill="#8B5CF6" opacity="0.13"/>
+  <rect width="1200" height="470" rx="38" fill="url(#bg)"/>
+  <path d="M-30 108H1230M-30 216H1230M-30 324H1230M156 -30V500M348 -30V500M540 -30V500M732 -30V500M924 -30V500" stroke="#FFFFFF" stroke-opacity="0.06"/>
 
-  <g filter="url(#soft)">
-    <rect x="70" y="66" width="1060" height="296" rx="30" fill="#07111F" fill-opacity="0.72" stroke="url(#line)" stroke-width="2"/>
+  <circle cx="996" cy="115" r="122" fill="#22D3EE" opacity="0.12">
+    <animate attributeName="r" values="112;138;112" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.18;0.08" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="212" cy="365" r="154" fill="#8B5CF6" opacity="0.12">
+    <animate attributeName="cy" values="365;345;365" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M0 352C142 288 260 380 398 318C548 250 690 352 836 296C978 241 1074 264 1200 205V470H0V352Z" fill="#E0F2FE" opacity="0.1">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 352C142 288 260 380 398 318C548 250 690 352 836 296C978 241 1074 264 1200 205V470H0V352Z;M0 334C150 300 260 350 398 304C552 256 694 336 838 286C982 232 1068 286 1200 214V470H0V334Z;M0 352C142 288 260 380 398 318C548 250 690 352 836 296C978 241 1074 264 1200 205V470H0V352Z"/>
+  </path>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="66" width="1060" height="334" rx="32" fill="#07111F" fill-opacity="0.76" stroke="url(#stroke)" stroke-width="2.2"/>
+    <rect x="86" y="82" width="1028" height="302" rx="24" stroke="#FFFFFF" stroke-opacity="0.08"/>
   </g>
 
-  <g transform="translate(110 104)">
-    <rect x="0" y="0" width="84" height="84" rx="24" fill="url(#chip)"/>
+  <g transform="translate(110 112)">
+    <rect width="84" height="84" rx="24" fill="url(#logo)"/>
     <path d="M42 18L63 30V54L42 66L21 54V30L42 18Z" stroke="white" stroke-width="5" stroke-linejoin="round"/>
     <path d="M42 18V66M21 30L42 42L63 30" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+    <animateTransform attributeName="transform" type="translate" values="110 112;110 104;110 112" dur="4.2s" repeatCount="indefinite"/>
   </g>
 
-  <text x="220" y="143" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="3">PIRATICy</text>
-  <text x="224" y="187" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">TypeScript-first builder from Tanzania</text>
-  <text x="224" y="224" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Apps • systems • web tools • games • practical experiments</text>
-
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">
-    <rect x="224" y="256" width="116" height="42" rx="21" fill="#1E40AF"/>
-    <text x="253" y="283" fill="#DBEAFE">TS</text>
-    <rect x="354" y="256" width="116" height="42" rx="21" fill="#854D0E"/>
-    <text x="384" y="283" fill="#FEF3C7">JS</text>
-    <rect x="484" y="256" width="116" height="42" rx="21" fill="#075985"/>
-    <text x="512" y="283" fill="#E0F2FE">PY</text>
-    <rect x="614" y="256" width="136" height="42" rx="21" fill="#166534"/>
-    <text x="646" y="283" fill="#DCFCE7">HTML/CSS</text>
-    <rect x="764" y="256" width="132" height="42" rx="21" fill="#5B21B6"/>
-    <text x="800" y="283" fill="#EDE9FE">SQL</text>
-    <rect x="910" y="256" width="140" height="42" rx="21" fill="#0F766E"/>
-    <text x="947" y="283" fill="#CCFBF1">Prisma</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="222" y="151" fill="#FFFFFF" font-size="72" font-weight="850" letter-spacing="3">PIRATICy</text>
+    <text x="226" y="197" fill="#BAE6FD" font-size="25" font-weight="700">TypeScript-first builder from Tanzania</text>
+    <text x="226" y="236" fill="#CBD5E1" font-size="18" font-weight="500">Apps / systems / web tools / games / practical experiments</text>
   </g>
 
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700">
-    <rect x="768" y="102" width="276" height="44" rx="14" fill="#FFFFFF" fill-opacity="0.09"/>
-    <text x="790" y="130" fill="#E0F2FE" font-size="16">Gym POS System</text>
-    <rect x="796" y="159" width="276" height="44" rx="14" fill="#FFFFFF" fill-opacity="0.09"/>
-    <text x="818" y="187" fill="#E0F2FE" font-size="16">Beauty Salon Platform</text>
-    <rect x="742" y="216" width="276" height="44" rx="14" fill="#FFFFFF" fill-opacity="0.09"/>
-    <text x="764" y="244" fill="#E0F2FE" font-size="16">Safari Booking Website</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">
+    <g>
+      <rect x="226" y="273" width="116" height="44" rx="22" fill="#1D4ED8"/>
+      <text x="255" y="301" fill="#DBEAFE">TS</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.4s" begin="0s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="356" y="273" width="116" height="44" rx="22" fill="#A16207"/>
+      <text x="386" y="301" fill="#FEF3C7">JS</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.4s" begin="0.25s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="486" y="273" width="116" height="44" rx="22" fill="#0369A1"/>
+      <text x="514" y="301" fill="#E0F2FE">PY</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.4s" begin="0.5s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="616" y="273" width="136" height="44" rx="22" fill="#15803D"/>
+      <text x="648" y="301" fill="#DCFCE7">HTML/CSS</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.4s" begin="0.75s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="766" y="273" width="132" height="44" rx="22" fill="#6D28D9"/>
+      <text x="802" y="301" fill="#EDE9FE">SQL</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.4s" begin="1s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="912" y="273" width="140" height="44" rx="22" fill="#0F766E"/>
+      <text x="949" y="301" fill="#CCFBF1">Prisma</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.4s" begin="1.25s" repeatCount="indefinite"/>
+    </g>
   </g>
 
-  <path d="M145 330H1055" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="145" cy="330" r="8" fill="#60A5FA"/>
-  <circle cx="449" cy="330" r="8" fill="#A78BFA"/>
-  <circle cx="752" cy="330" r="8" fill="#22D3EE"/>
-  <circle cx="1055" cy="330" r="8" fill="#2DD4BF"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800">
+    <g>
+      <rect x="772" y="104" width="276" height="46" rx="15" fill="#FFFFFF" fill-opacity="0.1"/>
+      <text x="794" y="133" fill="#E0F2FE" font-size="16">Gym POS System</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;22 0;0 0" dur="5.2s" begin="0s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="806" y="164" width="276" height="46" rx="15" fill="#FFFFFF" fill-opacity="0.1"/>
+      <text x="828" y="193" fill="#E0F2FE" font-size="16">Beauty Salon Platform</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-18 0;0 0" dur="5.6s" begin="0.3s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="748" y="224" width="276" height="46" rx="15" fill="#FFFFFF" fill-opacity="0.1"/>
+      <text x="770" y="253" fill="#E0F2FE" font-size="16">Safari Booking Website</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;24 0;0 0" dur="5.8s" begin="0.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <path d="M145 350H1055" stroke="url(#stroke)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M145 350H1055" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.15" stroke-dasharray="80 830">
+    <animate attributeName="stroke-dashoffset" values="910;0" dur="4.5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="145" cy="350" r="8" fill="#60A5FA"/>
+  <circle cx="449" cy="350" r="8" fill="#A78BFA"/>
+  <circle cx="752" cy="350" r="8" fill="#22D3EE"/>
+  <circle cx="1055" cy="350" r="8" fill="#2DD4BF"/>
+
+  <g>
+    <circle cx="1002" cy="252" r="12" fill="none" stroke="#2DD4BF" stroke-width="3" opacity="0">
+      <animate attributeName="r" values="8;34;8" dur="2.4s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0;0.9" dur="2.4s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <g transform="translate(948 216)">
+      <path d="M0 0L0 52L15 38L27 64L40 58L28 34H50L0 0Z" fill="#F8FAFC" stroke="#0F172A" stroke-width="4" stroke-linejoin="round"/>
+      <text x="48" y="64" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">tap</text>
+      <animateTransform attributeName="transform" type="translate" values="948 216;976 238;948 216" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+  </g>
 </svg>

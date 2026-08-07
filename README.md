@@ -25,27 +25,13 @@
 
 </div>
 
-## Project Lanes
+## Motion Board
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <strong>Systems</strong>
-      <br />
-      POS, dashboards, booking flows
-    </td>
-    <td align="center" width="33%">
-      <strong>Web Apps</strong>
-      <br />
-      React, Next.js, Node.js
-    </td>
-    <td align="center" width="33%">
-      <strong>Experiments</strong>
-      <br />
-      games, tools, automation
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="./assets/piraticy-motion.svg" alt="Animated tap, build, and ship workflow board" width="100%" />
+
+</div>
 
 ## Pulse
 

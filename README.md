@@ -1,116 +1,58 @@
 <div align="center">
 
-![PIRATICy GitHub Banner](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:2563eb,100:14b8a6&text=PIRATICy&fontColor=ffffff&fontSize=58&fontAlignY=38&desc=Building%20apps,%20systems,%20web%20tools%20and%20digital%20experiences&descAlignY=58&descSize=16)
-
-[![Profile Views](https://komarev.com/ghpvc/?username=Piraticy&style=for-the-badge&color=2563eb)](https://github.com/Piraticy)
-[![GitHub Followers](https://img.shields.io/github/followers/Piraticy?style=for-the-badge&logo=github&color=14b8a6)](https://github.com/Piraticy?tab=followers)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-robert-mwakisyala-1b8b33203/)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/piraticy)
-
-</div>
-
-## 👋 About Me
-
-I am **PIRATICy**, a curious builder from **Tanzania** learning how to turn ideas into real software. My projects are mainly built with **TypeScript**, **JavaScript**, **Python**, **HTML**, **CSS**, **SQL**, and **Prisma**, with a focus on apps, games, systems, and practical tools that solve real problems.
-
-I enjoy learning in public, experimenting with new challenges, and improving one project at a time.
-
-```txt
-Current mode : Learning, building, improving
-I build with : TypeScript, JavaScript, Python, HTML, CSS, SQL, Prisma
-Open to      : Collaboration, mentorship, creative projects
-Mindset      : Build daily. Learn deeply. Share progress.
-```
-
-## 🚀 What I Am Working Toward
-
-- Building useful apps and interactive experiences
-- Improving my programming fundamentals with TypeScript, JavaScript, and Python
-- Exploring game development, automation, and system design
-- Collaborating with developers, creators, and problem-solvers
-- Turning small experiments into polished public projects
-
-## 🧰 Languages & Tools
-
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
-![SQL](https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Prisma](https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma&logoColor=white)
-![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
-![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
-
-</div>
-
-```mermaid
-mindmap
-  root((PIRATICy))
-    Frontend
-      TypeScript
-      JavaScript
-      HTML
-      CSS
-    Backend
-      Python
-      Node.js
-    Database
-      SQL
-      Prisma
-    Workflow
-      Git
-      GitHub
-      VS Code
-```
-
-## ✨ Collaboration Interests
-
-I am open to working on:
-
-- Web apps and beginner-friendly open-source projects
-- Games, creative coding, and interactive systems
-- Automation tools that make everyday work easier
-- Projects where I can learn, contribute, and grow with a team
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Piraticy&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="PIRATICy's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piraticy&layout=compact&theme=tokyonight&hide_border=true" alt="PIRATICy's top languages" />
+<img src="./assets/piraticy-hero.svg" alt="PIRATICy visual GitHub profile banner" width="100%" />
 
 <br />
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Piraticy&theme=tokyonight&hide_border=true" alt="PIRATICy's GitHub streak" />
-
-</div>
-
-## 🌱 Learning Philosophy
-
-> Every project is a classroom. Every bug is a lesson. Every commit is progress.
-
-I believe the best way to learn technology is to build with it, break things carefully, understand why they broke, and come back better.
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam%20Robert%20Mwakisyala-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-robert-mwakisyala-1b8b33203/)
+[![Profile Views](https://komarev.com/ghpvc/?username=Piraticy&style=for-the-badge&color=2563eb)](https://github.com/Piraticy)
+[![Followers](https://img.shields.io/github/followers/Piraticy?style=for-the-badge&logo=github&color=14b8a6)](https://github.com/Piraticy?tab=followers)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-robert-mwakisyala-1b8b33203/)
 [![Twitter](https://img.shields.io/badge/Twitter-@piraticy-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/piraticy)
-[![GitHub](https://img.shields.io/badge/GitHub-Piraticy-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Piraticy)
 
 </div>
+
+## Build Stack
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:14b8a6,55:2563eb,100:0f172a)
+<img src="https://skillicons.dev/icons?i=ts,js,py,html,css,react,nextjs,nodejs,prisma,docker,git,github,vscode&perline=13" alt="TypeScript, JavaScript, Python, HTML, CSS, React, Next.js, Node.js, Prisma, Docker, Git, GitHub, and VS Code icons" />
+
+<br />
+<br />
+
+![SQL](https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Public + Private Projects](https://img.shields.io/badge/Public%20+%20Private-Project%20Stack-14B8A6?style=for-the-badge)
 
 </div>
+
+## Project Lanes
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <strong>Systems</strong>
+      <br />
+      POS, dashboards, booking flows
+    </td>
+    <td align="center" width="33%">
+      <strong>Web Apps</strong>
+      <br />
+      React, Next.js, Node.js
+    </td>
+    <td align="center" width="33%">
+      <strong>Experiments</strong>
+      <br />
+      games, tools, automation
+    </td>
+  </tr>
+</table>
+
+## Pulse
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Piraticy&theme=tokyonight&hide_border=true" alt="PIRATICy's GitHub contribution streak" />
+
+</div>
+
+> Build daily. Learn deeply. Ship better.
